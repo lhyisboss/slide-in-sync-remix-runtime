@@ -1,47 +1,69 @@
 {
-  "format": 1,
+  "format": 2,
+  "transport": "script-zstd",
   "executable": "GlobalSwipePuzzle",
-  "files": [
-    {
-      "path": "dmloader.js",
-      "bytes": 48311,
-      "sha256": "51BB547E8C20EE0269E18C66806671695674B41C2FB4EA4A6D0925D34BF5E509"
-    },
+  "sourceAssets": [
     {
       "path": "GlobalSwipePuzzle.wasm",
       "bytes": 1663319,
-      "sha256": "E990934842643309135C71E9DE2716E4571F007FF621308B1C91B95E90137AA3"
+      "sha256": "E990934842643309135C71E9DE2716E4571F007FF621308B1C91B95E90137AA3",
+      "zstdBytes": 575788,
+      "base64Bytes": 767720
     },
     {
       "path": "GlobalSwipePuzzle_wasm.js",
       "bytes": 271021,
-      "sha256": "F3FF178701ED1B1136E7738ADD88EFCD014ED1D5052B04C974A3A26C2DC9D757"
+      "sha256": "F3FF178701ED1B1136E7738ADD88EFCD014ED1D5052B04C974A3A26C2DC9D757",
+      "zstdBytes": 57127,
+      "base64Bytes": 76172
     },
     {
       "path": "archive/archive_files.json",
       "bytes": 363,
-      "sha256": "39761CFA1C5EE5669C614A7CBFA1E79D73E1E2058E63E90B898BB9D9716CAEED"
+      "sha256": "39761CFA1C5EE5669C614A7CBFA1E79D73E1E2058E63E90B898BB9D9716CAEED",
+      "zstdBytes": 149,
+      "base64Bytes": 200
     },
     {
       "path": "archive/game0.arcd",
       "bytes": 1624082,
-      "sha256": "BC0B8C25B08D936593D7244B65358D2E01CD835A3381AEAD8CBD77D2C36C9FDF"
+      "sha256": "BC0B8C25B08D936593D7244B65358D2E01CD835A3381AEAD8CBD77D2C36C9FDF",
+      "zstdBytes": 937596,
+      "base64Bytes": 1250128
     },
     {
       "path": "archive/game0.arci",
       "bytes": 5088,
-      "sha256": "2CA938A56DAB1E19D317362BB0DC9C2CA2474A4560828BAFF74425BFBC4ECEC8"
+      "sha256": "2CA938A56DAB1E19D317362BB0DC9C2CA2474A4560828BAFF74425BFBC4ECEC8",
+      "zstdBytes": 1979,
+      "base64Bytes": 2640
     },
     {
       "path": "archive/game0.dmanifest",
       "bytes": 3083,
-      "sha256": "14D97432A1A571843EC081ACCE81B9B1E7EFF506EA6BC9B5727321E3F96A2E30"
+      "sha256": "14D97432A1A571843EC081ACCE81B9B1E7EFF506EA6BC9B5727321E3F96A2E30",
+      "zstdBytes": 2528,
+      "base64Bytes": 3372
     },
     {
       "path": "archive/game0.projectc",
       "bytes": 4969,
-      "sha256": "7BA4FC8CA2FDE44EF67CE14F692217CD1961B220D652162C9C6F72672C77D09C"
+      "sha256": "7BA4FC8CA2FDE44EF67CE14F692217CD1961B220D652162C9C6F72672C77D09C",
+      "zstdBytes": 1918,
+      "base64Bytes": 2560
     }
   ],
-  "totalBytes": 3620236
+  "hostedFiles": {
+    "dmloader.js": {
+      "bytes": 48311,
+      "sha256": "51BB547E8C20EE0269E18C66806671695674B41C2FB4EA4A6D0925D34BF5E509"
+    },
+    "runtime-data.js": {
+      "bytes": 2112595,
+      "sha256": "942199E92FE80BE4CAAAB01BA6F4C16C152CF7662D83F8AE3337A46E1E7F789C"
+    }
+  },
+  "sourceBytes": 3571925,
+  "compressedBytes": 1577085,
+  "scriptBytes": 2160906
 }
