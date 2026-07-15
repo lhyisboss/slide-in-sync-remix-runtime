@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "executable": "GlobalSwipePuzzle",
+  "files": [
+    {
+      "path": "dmloader.js",
+      "bytes": 48311,
+      "sha256": "51BB547E8C20EE0269E18C66806671695674B41C2FB4EA4A6D0925D34BF5E509"
+    },
+    {
+      "path": "GlobalSwipePuzzle.wasm",
+      "bytes": 1663319,
+      "sha256": "E990934842643309135C71E9DE2716E4571F007FF621308B1C91B95E90137AA3"
+    },
+    {
+      "path": "GlobalSwipePuzzle_wasm.js",
+      "bytes": 271021,
+      "sha256": "F3FF178701ED1B1136E7738ADD88EFCD014ED1D5052B04C974A3A26C2DC9D757"
+    },
+    {
+      "path": "archive/archive_files.json",
+      "bytes": 363,
+      "sha256": "39761CFA1C5EE5669C614A7CBFA1E79D73E1E2058E63E90B898BB9D9716CAEED"
+    },
+    {
+      "path": "archive/game0.arcd",
+      "bytes": 1624082,
+      "sha256": "BC0B8C25B08D936593D7244B65358D2E01CD835A3381AEAD8CBD77D2C36C9FDF"
+    },
+    {
+      "path": "archive/game0.arci",
+      "bytes": 5088,
+      "sha256": "2CA938A56DAB1E19D317362BB0DC9C2CA2474A4560828BAFF74425BFBC4ECEC8"
+    },
+    {
+      "path": "archive/game0.dmanifest",
+      "bytes": 3083,
+      "sha256": "14D97432A1A571843EC081ACCE81B9B1E7EFF506EA6BC9B5727321E3F96A2E30"
+    },
+    {
+      "path": "archive/game0.projectc",
+      "bytes": 4969,
+      "sha256": "7BA4FC8CA2FDE44EF67CE14F692217CD1961B220D652162C9C6F72672C77D09C"
+    }
+  ],
+  "totalBytes": 3620236
+}
